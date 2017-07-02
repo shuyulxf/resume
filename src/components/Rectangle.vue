@@ -49,4 +49,9 @@ export default {
     text-align: center;
     font-style: normal;
   }
+  .pc .tip{
+    width: 1.05rem;
+    height: .32rem;
+    line-height: .32rem;
+  }
 </style>

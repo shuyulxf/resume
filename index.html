@@ -13,7 +13,12 @@
     	} else if (appVersion.indexOf("iPad") != -1){
         docEle.className = docEle.className + " pc iPad";
       } else {
-        docEle.className = docEle.className + " pc";
+        var t = " pc";
+        var w = docEle.getBoundingClientRect().width;
+        if (w < 900) {
+          t += " small";
+        }
+        docEle.className = docEle.className + t;
       }
     </script>
     <link rel="stylesheet" type="text/css" href="./static/css/normalize.css">

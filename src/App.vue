@@ -45,7 +45,7 @@ export default {
 .pc #app{
    max-width: 900px;
 }
-.iPad #app {
+.iPad #app, .small #app {
   margin: 0;
 }
 </style>
