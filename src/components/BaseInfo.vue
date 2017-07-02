@@ -25,27 +25,27 @@ export default {
       	{
       		name: "姓&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp名",
       		data: "李习凤"
-      	},
-      	{
-      		name: "毕业院校",
-      		data: "计算技术研究所"
-      	},
-      	{
-      		name: "电&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp话",
-      		data: "13261527720"
-      	},
+      	}, 
       	{
       		name: "学&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp历",
       		data: "研究生"
       	},
-      	{
-      		name: "邮&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp箱",
-      		data: "shuyu_lxf@163.com"
-      	},
+        {
+          name: "毕业院校",
+          data: "计算技术研究所"
+        },
       	{
       		name: "求职意向",
       		data: "前端开发工程师"
-      	}
+      	},
+        {
+          name: "邮&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp箱",
+          data: "shuyu_lxf@163.com"
+        },
+        {
+          name: "电&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp话",
+          data: "13261527720"
+        }
       ]
     }
   },
@@ -68,5 +68,14 @@ export default {
   .info{
   	width: 40%;
   	box-sizing: border-box;
+  }
+  .mobile .base-info ul{
+    width: 60%!important;
+  }
+  .mobile .base-info ul li {
+    width: 100%;
+  }
+  .mobile .base-info img{
+    width: 2rem!important;
   }
 </style>

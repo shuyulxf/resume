@@ -1,6 +1,6 @@
 <template>
   <div class="rect" v-bind:class="bgColor">
-    <i class="tip iblk font-14">{{tip}}</i>
+    <i class="tip iblk font-12">{{tip}}</i>
   </div>
 </template>
 
@@ -28,7 +28,6 @@ export default {
 <style scoped>
   @import url('../../static/css/common.css');
   .rect {
-    height: .36rem;
     font-size: 0;
   }
   .bg-color{
@@ -39,9 +38,12 @@ export default {
     background-color: rgb(218,227,243);
   }
   .tip {
-    width: 1.05rem;
+    /*width: 1.05rem;
     height: .36rem;
-    line-height: .36rem;
+    line-height: .36rem;*/
+    width: 1.8rem;
+    height: .5rem;
+    line-height: .48rem;
     background: rgb(143, 170, 220);
     color: rgb(204, 232, 207);
     text-align: center;

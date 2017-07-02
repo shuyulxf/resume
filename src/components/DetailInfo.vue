@@ -12,7 +12,7 @@
         <rectangle bg="true" :tip="experience.tip"></rectangle>
         <ul class="infos mg-tb-30">
           <li v-for="info in experience.exps" style="padding-bottom: .15rem;">
-            <span class="iblk w-33" style="padding-bottom: .1rem">{{info.title.time}}</span><span class="iblk w-33" style="padding-bottom: .1rem">{{info.title.cnt}}</span><span class="iblk w-33" style="padding-bottom: .1rem">{{info.title.pos}}</span>
+            <span class="iblk w-40" style="padding-bottom: .1rem">{{info.title.time}}</span><span class="iblk w-60" style="padding-bottom: .1rem">{{info.title.cnt}}</span>
             <ul class="lists">
               <li v-for="list in info.lists">{{list}}</li>
             </ul>
@@ -29,7 +29,7 @@
       <rectangle bg="true" :tip="rewards.tip"></rectangle>
       <ul class="infos mg-tb-30">
         <li v-for="list in rewards.lists">
-            <span class="iblk w-33" style="padding-bottom: .1rem">{{list.time}}</span><span class="iblk w-33" style="padding-bottom: .1rem">{{list.reward}}</span>
+            <span class="iblk w-33" style="padding-bottom: .1rem">{{list.time}}</span><span class="iblk w-50" style="padding-bottom: .1rem">{{list.reward}}</span>
         </li>
       </ul>
     </section>
@@ -67,12 +67,12 @@ export default {
           {
             time  : "2014.09-2018.07",
             school: "计算技术研究所",
-            edu   : "硕士(计算机技术)"
+            edu   : "硕士"
           },
           {
             time  : "2010.09-2014.07",
             school: "北京邮电大学",
-            edu   : "本科(计算机科学与技术"
+            edu   : "本科"
           }
         ]
       },
@@ -83,7 +83,6 @@ export default {
             title: {
               time: "2016-04 至今",
               cnt : "中国电信智能客服机器人",
-              pos : "项目接口人和 WEB 开发"
             },
             lists: [
               "作为导师公司和电信集团智能客服机器人合作项目的接口人，主要负责将电信集团提出的部分需求分配到的相应的人，并把控需求进度",

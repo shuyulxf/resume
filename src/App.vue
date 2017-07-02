@@ -1,5 +1,5 @@
 <template>
-  <main id="app">
+  <main id="app" class="font-12">
     <tip>
       
     </tip>
@@ -26,6 +26,7 @@ export default {
 </script>
 
 <style>
+@import url('../static/css/common.css');
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -33,12 +34,18 @@ export default {
   color: #444;
   margin: 0.44rem auto;
   width: 100%;
-  max-width: 900px;
   box-sizing: border-box;
   box-shadow: 0 0 5px #ddd;
   padding: 0.44rem;
 }
 .mobile #app {
+  margin: 0;
+  max-width: none!import;
+}
+.pc #app{
+   max-width: 900px;
+}
+.iPad #app {
   margin: 0;
 }
 </style>

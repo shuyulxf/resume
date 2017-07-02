@@ -8,9 +8,13 @@
     	var appVersion = navigator.appVersion,
     		docEle = document.documentElement;
 
-    	if (appVersion.indexOf("Mobile") != -1) {
+    	if (appVersion.indexOf("Mobile") != -1 && appVersion.indexOf("iPad") == -1) {
     		docEle.className = docEle.className + " mobile";
-    	}
+    	} else if (appVersion.indexOf("iPad") != -1){
+        docEle.className = docEle.className + " pc iPad";
+      } else {
+        docEle.className = docEle.className + " pc";
+      }
     </script>
     <link rel="stylesheet" type="text/css" href="./static/css/normalize.css">
   </head>
