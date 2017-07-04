@@ -142,15 +142,16 @@ export default {
           "熟悉 Sea.js、require.js 等模块化开发框架，研读过 SeaJs 源码，熟悉实现原理",
           "熟悉 Backbone 前端 MVC 框架，研读过源码",
           "熟悉 art-template 等前端模板，研读过源码，熟悉其实现原理",
-          "熟悉 jQuery、Zepto、underscore、reactjs、vuejs 等框架，研读过 jquery、underscore、vue 源码",
+          "熟悉 jQuery、Zepto、underscore、reactjs、vuejs 等框架，研读过 jquery、underscore等源码",
           "熟悉 Bootstrap、easyUI、Ant Design 等前端 UI 框架, 研读过 Bootstrap 部分源码",
           "熟悉 webpack、fis、gulp 等前端构建工具",
           "熟悉 php 语言以及 MVC 框架 yaf",
           "熟悉 java 语言以及 Java WEB 开发相关技术，如 structs、servlet、Spring、Spring MVC 等",
           "熟悉数据库原理以及 mysql、sql server、oracle 等数据库",
           "熟悉数据结构和基本算法",
+          "熟悉svn和git等版本控制工具",
           "了解 tomcat、httpd 等 web 网络服务器",
-          "了解 linux 系统、熟练使用 linux 基本命令"
+          "了解 linux 系统、熟练使用 linux 基本命令",
         ]
       },
       rewards: {
